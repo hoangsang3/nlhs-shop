@@ -814,7 +814,6 @@
   display: -ms-flexbox;
   display: flex;
   min-height: 100%;
-  padding: 0.5rem 0;
   -webkit-transition: all 0.15s;
   transition: all 0.15s;
   will-change: transform, opacity;
@@ -859,10 +858,6 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   color: rgba(0, 0, 0, 0.6);
-}
-
-.notification__main .notification__link:first-child {
-  padding-top: 0.8rem;
 }
 
 .notification__main .notification__link:last-child {
